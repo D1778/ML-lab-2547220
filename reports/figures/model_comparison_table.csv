@@ -1,0 +1,6 @@
+model_name,best_params,cv_f1_mean,cv_f1_std,val_accuracy,val_precision,val_recall,val_f1,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc
+Logistic Regression,{'C': 1.0},0.8012,0.0055,0.8027,0.8261,0.8027,0.8099,0.7814,0.8727,0.7814,0.8064,0.8838
+Random Forest,{'min_samples_split': 2},0.749,0.0022,0.7441,0.7806,0.7441,0.7555,0.7292,0.8502,0.7292,0.7627,0.8382
+Linear SVM,{'method': 'sigmoid'},0.7905,0.0093,0.8134,0.8041,0.8134,0.7947,0.8527,0.8476,0.8527,0.8499,0.8753
+XGBoost,{'subsample': 1.0},0.7517,0.0047,0.7856,0.7777,0.7856,0.7447,0.8582,0.8387,0.8582,0.8407,0.8523
+Voting Ensemble,{'voting': 'soft'},0.811,0.0087,0.8297,0.8214,0.8297,0.821,0.8565,0.8669,0.8565,0.8609,0.8888
